@@ -1,0 +1,15 @@
+.nav-content {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h6 {
+  margin-left: 5px;
+}
