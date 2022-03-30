@@ -1,0 +1,38 @@
+{
+  "products": [
+    {
+      "productName": "zfezfff",
+      "brand": "fffeee",
+      "category": "Electronics",
+      "price": 15,
+      "description": "aizfbkzf",
+      "id": 1
+    },
+    {
+      "productName": "zfezfff",
+      "brand": "fffeee",
+      "category": "Electronics",
+      "price": 15,
+      "description": "aizfbkzf",
+      "id": 2
+    },
+    {
+      "productName": "zfezfff",
+      "brand": "fffeee",
+      "category": "Electronics",
+      "price": 15,
+      "description": "aizfbkzf",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
