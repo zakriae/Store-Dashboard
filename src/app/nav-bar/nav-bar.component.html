@@ -1,21 +1,23 @@
 <mat-toolbar color="primary">
     <div class="nav-content">
 
-        <button mat-icon-button class="example-icon" >
+        <a mat-icon-button 
+          class="example-icon"
+          routerLink="/products" >
             <div class="logo">
                 <mat-icon>store</mat-icon>
                 <h6>Store</h6> 
             </div>
-        </button>
+        </a>
        
        
 
         <div class="navigation">
             <div class="example-button-row">
 
-                <button mat-button >Products</button>
-                <button mat-button (click)='openDialog()'>Add Product</button>
-                <button mat-button >edit Products</button>
+                <a  routerLink="/products" mat-button >Products</a>
+                <a   mat-button (click)='openDialog()'>Add Product</a>
+                <a  routerLink="/edit" mat-button >edit Products</a>
                
             </div>
         </div>

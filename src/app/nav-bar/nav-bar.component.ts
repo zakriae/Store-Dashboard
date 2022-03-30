@@ -18,6 +18,7 @@ export class NavBarComponent implements OnInit {
   openDialog(): void {
      this.dialog.open(DialogComponent, {
       width: '25%',
+      minWidth: '350px'
      
     }); }
 

@@ -17,6 +17,10 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatRadioModule} from '@angular/material/radio';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
+import { EditProductsComponent } from './edit-products/edit-products.component';
+import { ProductComponent } from './product/product.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
 
@@ -24,6 +28,9 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     NavBarComponent,
     DialogComponent,
+    EditProductsComponent,
+    ProductComponent,
+    ProductsComponent,
     
   ],
   imports: [
@@ -40,7 +47,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatRadioModule,
     ReactiveFormsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
