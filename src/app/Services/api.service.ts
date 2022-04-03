@@ -20,4 +20,14 @@ export class ApiService {
     return this.http.get<Product[]>("http://localhost:3000/products/");
   }
 
+  putProduct(data: Product, id : number): Observable<Product> {
+     return this.http.put<Product>("http://localhost:3000/products/"+id, data);
+  }
+
+  deleteProduct(id: number): any {
+
+
+    return this.http.delete<Product>("http://localhost:3000/products/"+id);
+  }
+
 }

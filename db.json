@@ -1,52 +1,48 @@
 {
   "products": [
     {
-      "productName": "zfezfff",
-      "brand": "fffeee",
-      "category": "Electronics",
-      "price": 15,
-      "description": "aizfbkzf",
-      "id": 1
-    },
-    {
-      "productName": "zfezfff",
-      "brand": "fffeee",
-      "category": "Electronics",
-      "price": 15,
-      "description": "aizfbkzf",
-      "id": 2
-    },
-    {
-      "productName": "zfezfff",
-      "brand": "fffeee",
-      "category": "Electronics",
-      "price": 15,
-      "description": "aizfbkzf",
-      "id": 3
-    },
-    {
-      "productName": "zazz",
-      "brand": "yeyhbkad",
-      "category": "Electronics",
-      "price": 20,
-      "description": "afeznlkzeflibl",
-      "id": 4
-    },
-    {
-      "productName": "AZMjkzmNG",
-      "brand": "EFFJbkjzef",
-      "category": "Electronics",
-      "price": 14,
-      "description": "azertyui",
-      "id": 5
-    },
-    {
       "productName": "trfg",
       "brand": "vhjk",
       "category": "Electronics",
       "price": 10,
       "description": "yjk",
       "id": 6
+    },
+    {
+      "productName": "alk,fzazfz",
+      "brand": "erze",
+      "category": "Clothes",
+      "price": 10,
+      "description": "test",
+      "img": "",
+      "id": 7
+    },
+    {
+      "productName": "lnqk,klb,rk",
+      "brand": "ekjfn erg",
+      "category": "Electronics",
+      "price": 10,
+      "description": "ekmq a,stg",
+      "img": "",
+      "id": 8
+    },
+    {
+      "productName": "ZMKJFEB",
+      "brand": "mjen",
+      "category": "Electronics",
+      "price": 10,
+      "description": "sdmjNZ ",
+      "img": "",
+      "id": 9
+    },
+    {
+      "productName": "aeFNJEFZ",
+      "brand": "AFJNZ EF",
+      "category": "Electronics",
+      "price": 10,
+      "description": "ZFN zfe",
+      "img": "",
+      "id": 10
     }
   ],
   "comments": [

@@ -3,6 +3,7 @@ import { Product } from '../product';
 import { ApiService } from '../Services/api.service';
 import {MediaObserver, MediaChange} from '@angular/flex-layout'
 import { Subscription } from 'rxjs';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-products',
@@ -15,7 +16,7 @@ export class ProductsComponent implements OnInit {
   mediaSub?:Subscription;
   deviceSize: string= '';
 
-  constructor(private apiService: ApiService, public mediaObserver:MediaObserver ) { }
+  constructor(private apiService: ApiService, public mediaObserver:MediaObserver, private dialog: MatDialog ) { }
 
 
   ngOnInit(): void {
@@ -41,6 +42,7 @@ export class ProductsComponent implements OnInit {
          error: () => alert("an error has accured please try later")
        })
   }
+  
 
 
 }
