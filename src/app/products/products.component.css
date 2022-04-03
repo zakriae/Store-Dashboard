@@ -1,0 +1,35 @@
+.grid-container-lg-xl{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    column-gap: 30px;
+    row-gap: 30px;
+  
+}
+
+
+.grid-container-xs{
+  
+    display: grid;
+    grid-template-columns:  48% 48%  ;
+    column-gap: 10px;
+    row-gap: 10px;
+  
+}
+
+.grid-container-sm{
+  
+    display: grid;
+    grid-template-columns:  32% 32% 32%;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+.products {
+
+     margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}

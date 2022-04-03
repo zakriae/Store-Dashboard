@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
 import { DialogComponent } from '../dialog/dialog.component';
 
@@ -10,15 +10,20 @@ import { DialogComponent } from '../dialog/dialog.component';
 })
 export class NavBarComponent implements OnInit {
 
+
+  @Input()
+  deviceSize?: string; 
   constructor(public dialog: MatDialog) {}
 
   ngOnInit(): void {
+
+   
   }
 
   openDialog(): void {
      this.dialog.open(DialogComponent, {
-      width: '25%',
-      minWidth: '350px'
+    
+      width: '470px'
      
     }); }
 

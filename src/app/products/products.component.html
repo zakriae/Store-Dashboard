@@ -1,1 +1,20 @@
-<p>products works!</p>
+<div *ngIf="products" class="products" >
+
+    <div *ngIf="deviceSize==='lg' || deviceSize==='xl'|| deviceSize==='md' " class="grid-container-lg-xl">
+        <div *ngFor="let product of products">
+            <a routerLink="/product" ><product [product]="product" ></product></a> 
+       </div>
+    </div>
+
+    <div *ngIf="deviceSize==='sm' " class="grid-container-sm">
+        <div *ngFor="let product of products">
+           <a routerLink="/product" ><product [product]="product" ></product></a> 
+       </div>
+    </div>
+
+    <div *ngIf="deviceSize==='xs' " class="grid-container-xs">
+        <div *ngFor="let product of products">
+            <a routerLink="/product" ><product [product]="product" ></product></a> 
+       </div>
+    </div>
+</div>

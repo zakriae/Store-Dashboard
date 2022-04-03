@@ -21,7 +21,8 @@ export class DialogComponent implements OnInit {
       brand: ['', Validators.required],
       category: ['', Validators.required],
       price: ['', Validators.required],
-      description: ['', Validators.required]
+      description: ['', Validators.required],
+      img: ['', Validators.required]
     })
   }
 

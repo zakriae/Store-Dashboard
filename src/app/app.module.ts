@@ -21,6 +21,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { EditProductsComponent } from './edit-products/edit-products.component';
 import { ProductComponent } from './product/product.component';
 import { ProductsComponent } from './products/products.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatSortModule} from '@angular/material/sort';
 
 @NgModule({
 
@@ -48,7 +54,13 @@ import { ProductsComponent } from './products/products.component';
     ReactiveFormsModule,
     FormsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
+    MatGridListModule,
+    FlexLayoutModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]

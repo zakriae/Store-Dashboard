@@ -1,5 +1,5 @@
 <mat-toolbar color="primary">
-    <div class="nav-content">
+    <div class="nav-content"   >
 
         <a mat-icon-button 
           class="example-icon"
@@ -12,14 +12,30 @@
        
        
 
-        <div class="navigation">
-            <div class="example-button-row">
+        <div class="navigation" >
+            <div class="example-button-row" *ngIf="deviceSize!=='xs'">
 
                 <a  routerLink="/products" mat-button >Products</a>
                 <a   mat-button (click)='openDialog()'>Add Product</a>
                 <a  routerLink="/edit" mat-button >edit Products</a>
-               
+              
             </div>
+
+
+            <button *ngIf="deviceSize ==='xs'" mat-button [matMenuTriggerFor]="menu">  <mat-icon>menu</mat-icon></button>
+                <mat-menu #menu="matMenu">
+                    <div>  <a  routerLink="/products" mat-button >Products</a></div>
+                  
+                   <div><a   mat-button (click)='openDialog()'>Add Product</a></div> 
+                   <div><a  routerLink="/edit" mat-button >edit Products</a></div> 
+                </mat-menu>
+<!-- 
+            <button *ngIf="deviceSize ==='xs'"
+                   
+            mat-icon-button class="example-icon"
+            aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button> -->
         </div>
    </div>
 </mat-toolbar>

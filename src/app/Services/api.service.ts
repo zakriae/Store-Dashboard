@@ -15,4 +15,9 @@ export class ApiService {
    return this.http.post<Product>("http://localhost:3000/products/",data);
   }
 
+  getAllProducts(): Observable<Product[]>
+   {
+    return this.http.get<Product[]>("http://localhost:3000/products/");
+  }
+
 }

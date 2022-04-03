@@ -1,5 +1,5 @@
 .app-content {
-  width: 60%;
+  max-width: 1150px;
   margin: auto;
 }
 .navigation {

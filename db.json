@@ -39,6 +39,14 @@
       "price": 14,
       "description": "azertyui",
       "id": 5
+    },
+    {
+      "productName": "trfg",
+      "brand": "vhjk",
+      "category": "Electronics",
+      "price": 10,
+      "description": "yjk",
+      "id": 6
     }
   ],
   "comments": [

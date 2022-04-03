@@ -1,5 +1,5 @@
 .nav-content {
-  width: 60%;
+  width: 1150px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -12,4 +12,8 @@
 
 .logo h6 {
   margin-left: 5px;
+}
+.xs {
+  flex-direction: column;
+  justify-content: start;
 }
